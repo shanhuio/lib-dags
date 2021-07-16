@@ -1,4 +1,4 @@
-package dagvis
+package dags
 
 // MapNode is a node in the DAG graph
 type MapNode struct {

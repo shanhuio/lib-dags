@@ -1,4 +1,4 @@
-package dagvis
+package dags
 
 // Repo is the overview dependency structure of a repository.
 type Repo struct {

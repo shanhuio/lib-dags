@@ -1,4 +1,4 @@
-package dagvis
+package dags
 
 // CheckDAG checks if a graph is a valid DAG.  It returns true
 // when all the graph, links are valid and has no circular

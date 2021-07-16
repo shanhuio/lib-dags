@@ -1,4 +1,4 @@
-package dagvis
+package dags
 
 // MapNodeView is the position of a map node.
 type MapNodeView struct {

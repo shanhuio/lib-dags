@@ -1,4 +1,4 @@
-package dagvis
+package dags
 
 type searchNode struct {
 	start  *MapNode

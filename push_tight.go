@@ -1,4 +1,4 @@
-package dagvis
+package dags
 
 // checkPush returns if a node is able and worthy to upper layer
 func checkPush(m *Map, node *MapNode) (able, worthy bool) {

@@ -1,4 +1,4 @@
-package dagvis
+package dags
 
 import (
 	"encoding/json"

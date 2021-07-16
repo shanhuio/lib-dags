@@ -1,6 +1,6 @@
-// Package dagvis visualizes a DAG graph into
+// Package dags visualizes a DAG graph into
 // a structured, layered planer map.
-package dagvis
+package dags
 
 import (
 	"fmt"

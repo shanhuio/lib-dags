@@ -1,4 +1,4 @@
-package dagvis
+package dags
 
 // TopoSort topologically sorts the graph.
 func TopoSort(g *Graph) ([]string, error) {
