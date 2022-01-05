@@ -22,6 +22,7 @@ import (
 // N is a node in the minified DAG visualization result.
 type N struct {
 	N    string   `json:"n"`
+	F    string   `json:"f,omitempty"`
 	X    int      `json:"x"`
 	Y    int      `json:"y"`
 	Ins  []string `json:"i"`
@@ -51,6 +52,7 @@ func Output(v *MapView) *M {
 
 		n := &N{
 			N:    display,
+			F:    name,
 			X:    node.X,
 			Y:    node.Y,
 			Ins:  node.CritIns,
